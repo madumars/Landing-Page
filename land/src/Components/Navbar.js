@@ -5,7 +5,8 @@ import HomeIcon from "@mui/icons-material/Home";
 import InfoIcon from "@mui/icons-material/Info";
 import LocalPhoneRoundedIcon from '@mui/icons-material/LocalPhoneRounded';
 import ShoppingCartRoundedIcon from "@mui/icons-material/ShoppingCartRounded";
-import {HitOutlineBars3} from "react-icons/hi2";
+//import {HitOutlineBars3} from "react-icons/hi2";
+import { HiBars3 } from "react-icons/hi2";
 import Drawer from "@mui/material/Drawer";
 import Box from "@mui/material/Box";
 import List from "@mui/material/List";
@@ -15,7 +16,7 @@ import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 
 const Navbar = () =>{
-    const[openMenu, SetOpenMenu] = useState = false;
+    const[openMenu, SetOpenMenu] = useState(false);
     const menuOptions = [
         {
             text: "Home",
@@ -61,7 +62,7 @@ const Navbar = () =>{
             </div>
 
             <div className="navBarMenu">
-                <HitOutlineBars3 onClick= {() =>SetOpenMenu(true)} />
+                <HiBars3 onClick= {() =>SetOpenMenu(true)} />
             </div>
 
             <Drawer open={openMenu} onClose={() => SetOpenMenu(false)} anchor="right">
