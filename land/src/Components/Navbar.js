@@ -3,7 +3,7 @@ import logo from "../Assets/logo.png";
 import {BsCart2} from "react-icons/bs";
 import HomeIcon from "@mui/icons-material/Home";
 import InfoIcon from "@mui/icons-material/Info";
-//import PhoneRoundedIcon from "@mui/icons-material/PhoneRoundedIcon";
+import LocalPhoneRoundedIcon from '@mui/icons-material/LocalPhoneRounded';
 import ShoppingCartRoundedIcon from "@mui/icons-material/ShoppingCartRounded";
 import {HitOutlineBars3} from "react-icons/hi2";
 import Drawer from "@mui/material/Drawer";
@@ -31,7 +31,7 @@ const Navbar = () =>{
         },
         {
             text: "Contato",
-            icon:<InfoIcon />
+            icon:<LocalPhoneRoundedIcon />
         },
         {
             text: "Cart",
