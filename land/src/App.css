@@ -60,6 +60,11 @@ nav{
     transition: 0.3s;
 }
 
-.primaryButton:hover{
+/*.primaryButton:hover{
     background-color: #a46e5f;
+}
+*/
+
+.navBarMenu{
+    display: none;
 }
