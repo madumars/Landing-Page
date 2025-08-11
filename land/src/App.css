@@ -65,8 +65,18 @@ nav{
 }
 
 
-/*
 .navBarMenu{
     display: none;
 }
-*/
+
+@media (max-width: 800px ){
+    .logoNav{
+        max-width: 100px;
+    }
+    .linksNav{
+       display: none;
+    }
+    .navBarMenu{
+        display:flex;
+    }
+}
