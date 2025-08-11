@@ -1,5 +1,5 @@
 import Navbar from "./Navbar";
-import BannerBackground from "../Assets/home-bar.png";
+import BannerBackground from "../Assets/home-bar3.png";
 import { FaArrowRight } from "react-icons/fa";
 
 const Home = () => {

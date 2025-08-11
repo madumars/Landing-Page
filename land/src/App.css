@@ -8,7 +8,7 @@
 }
 
 img{
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
 }
 
@@ -67,6 +67,25 @@ nav{
 
 .navBarMenu{
     display: none;
+}
+
+.navBarMenu svg{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.containerHome{
+    position:relative;
+    display:contents;
+    padding-top: 4rem;
+}
+
+.HomeBannerImageContainer{
+    position:absolute;
+    top: 90px;
+    right: 10px;
+    z-index: -2;
+    max-width: 100%;
 }
 
 @media (max-width: 800px ){
