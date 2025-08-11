@@ -5,8 +5,10 @@ import HomeIcon from "@mui/icons-material/Home";
 import InfoIcon from "@mui/icons-material/Info";
 import LocalPhoneRoundedIcon from '@mui/icons-material/LocalPhoneRounded';
 import ShoppingCartRoundedIcon from "@mui/icons-material/ShoppingCartRounded";
-//import {HitOutlineBars3} from "react-icons/hi2";
-import { HiBars3 } from "react-icons/hi2";
+// import { BiSolidCoffeeBean } from "react-icons/bi"; - grão de café
+import { PiCoffeeFill } from "react-icons/pi";
+//import {HitOutlineBars3} from "react-icons/hi2"; - não existe mais
+import {HiBars3} from "react-icons/hi2";
 import Drawer from "@mui/material/Drawer";
 import Box from "@mui/material/Box";
 import List from "@mui/material/List";
@@ -14,6 +16,9 @@ import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
+
+//teste de barra lateral em pontos
+//import { HiEllipsisVertical } from "react-icons/hi2";
 
 const Navbar = () =>{
     const[openMenu, SetOpenMenu] = useState(false);
@@ -24,7 +29,7 @@ const Navbar = () =>{
         },
         {
             text: "Nossos cafés",
-            icon:<InfoIcon />
+            icon:<PiCoffeeFill />
         },
         {
             text: "Sobre",
@@ -35,7 +40,7 @@ const Navbar = () =>{
             icon:<LocalPhoneRoundedIcon />
         },
         {
-            text: "Cart",
+            text: "Carrinho",
             icon:<ShoppingCartRoundedIcon />
         },
     ];
