@@ -84,7 +84,6 @@ nav{
     position:absolute;
     top: 90px;
     right: 10px;
-    z-index: -2;
     max-width: 100%;
 }
 
