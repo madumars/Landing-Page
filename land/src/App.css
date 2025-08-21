@@ -64,7 +64,6 @@ nav{
     background-color: #a46e5f;
 }
 
-
 .navBarMenu{
     display: none;
 }
@@ -85,6 +84,46 @@ nav{
     top: 90px;
     right: 10px;
     max-width: 100%;
+}
+
+.sectionHomeText{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.primaryHeading{
+    font-size: clamp(2rem, 5vw, 4rem);
+    color:#5a352b;
+    max-width: 600px;
+}
+
+.primaryText{
+    font-size: clamp(1rem, 3vw, 1.5rem);
+    color: #5a352b;
+    margin: 1.5rem 0rem ;
+}
+
+.secondaryButton{
+    padding: 1rem 2.5rem;
+    background-color: #cd853f;
+    outline: none;
+    border: none;
+    border-radius: 5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.secondaryButton:hover{
+    background-color: #a46e5f;
 }
 
 @media (max-width: 800px ){
