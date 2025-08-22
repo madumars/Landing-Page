@@ -137,3 +137,61 @@ nav{
         display:flex;
     }
 }
+
+@media (max-width: 800px ){
+
+    /*Nav*/
+    .logoNav{
+        max-width: 100px;
+    }
+    .linksNav{
+       display: none;
+    }
+    .navBarMenu{
+        display:flex;
+    }
+
+    /*Home*/
+    .HomeBannerImageContainer{
+        max-width: 450px;
+    }
+    
+    /*
+    .HomeBannerImageContainer{
+        width: 376px;
+        height: 314px;
+        object-fit: cover;
+        margin: 5px;
+    }
+    */
+
+    .HomeBannerContainer,
+    .aboutSectionContainer{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    /*Home e About*/
+    .aboutSectionContainer{
+        flex-direction: column;
+    }
+    .aboutSectionImageContainer{
+        margin-left: 5px;
+        margin-bottom: 5px;
+        margin: 150px 0 5px 0;
+    }
+    .primaryHeading{
+        text-align: center;
+        max-width: 90%;
+    }
+    .primaryText{
+        text-align: center;
+        max-width: 80%;
+    }
+    .aboutSectionImageContainer img{
+        margin-left: 5px;
+        margin-bottom: 5px;
+        margin: -150px 0 5px 0;
+    }
+}

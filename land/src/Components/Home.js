@@ -7,6 +7,7 @@ const Home = () => {
     return(
         <div className="containerHome">
            <Navbar/>
+           
            <div className="HomeBannerContainer">
                 <div className="HomeBannerImageContainer">
                     <img src={BannerBackground} alt="imagem de fundo"/>
