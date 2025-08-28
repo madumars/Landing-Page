@@ -126,6 +126,7 @@ nav{
     background-color: #a46e5f;
 }
 
+/*
 @media (max-width: 800px ){
     .logoNav{
         max-width: 100px;
@@ -137,6 +138,7 @@ nav{
         display:flex;
     }
 }
+*/
 
 @media (max-width: 800px ){
 
@@ -222,4 +224,14 @@ nav{
         padding: 0.8rem 2rem;
         cursor: pointer;
     }
+}
+
+@media (max-width: 600px ){
+    .aboutBackgroundImageContainer{
+        display: none;
+    }
+/* caso precise tirar a foto 
+    .HomeBannerImageContainer{
+        display: none;
+*/
 }
