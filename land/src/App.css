@@ -151,20 +151,19 @@ nav{
         display:flex;
     }
 
-    /*Home*/
+    /*Home
     .HomeBannerImageContainer{
         max-width: 450px;
     }
+    */
     
-    /*
     .HomeBannerImageContainer{
         width: 376px;
         height: 314px;
         object-fit: cover;
         margin: 5px;
     }
-    */
-
+    
     .HomeBannerContainer,
     .aboutSectionContainer{
         flex-direction: column-reverse;
@@ -176,30 +175,41 @@ nav{
     .aboutSectionContainer{
         flex-direction: column;
     }
+
+    .HomeBannerContainer, 
     .aboutSectionImageContainer{
-        margin-left: 5px;
-        margin-bottom: 5px;
-        margin: 150px 0 5px 0;
+        width: 100%;
+        max-width: 400px;
     }
-    .primaryHeading{
-        text-align: center;
-        max-width: 90%;
-    }
-    .primaryText{
-        text-align: center;
-        max-width: 80%;
-    }
+
     .aboutSectionImageContainer img{
         margin-left: 5px;
         margin-bottom: 5px;
         margin: -150px 0 5px 0;
     }
 
+    .primaryHeading{
+        text-align: center;
+        max-width: 90%;
+    }
+
+    .primaryText{
+        text-align: center;
+        max-width: 80%;
+    }
+
+    .HomeBannerContainer, 
+    .aboutSectionImageContainer{
+        margin-left: 5px;
+        margin-bottom: 5px;
+        margin: 150px 0 5px 0;
+    }
+
     .sectionHomeText,
     .aboutSectionTextContainer{
         justify-content: center;
         align-items: center;
-        margin-top: 1rem;
+        margin-top: 25rem;
         margin-left: 0 !important;
     }
 
