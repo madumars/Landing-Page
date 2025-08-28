@@ -162,6 +162,7 @@ nav{
         height: 314px;
         object-fit: cover;
         margin: 5px;
+        margin-right: -30px;
     }
     
     .HomeBannerContainer,
@@ -202,14 +203,17 @@ nav{
     .aboutSectionImageContainer{
         margin-left: 5px;
         margin-bottom: 5px;
-        margin: 150px 0 5px 0;
+        margin: 150px 0 5px 0px;
     }
 
+    /*o margin top 25 rem é para as 
+    frases abaixo desgrudarem da 
+    imagem, se preciso separar o about depois*/
     .sectionHomeText,
     .aboutSectionTextContainer{
         justify-content: center;
         align-items: center;
-        margin-top: 25rem;
+        margin-top: 20rem;
         margin-left: 0 !important;
     }
 
