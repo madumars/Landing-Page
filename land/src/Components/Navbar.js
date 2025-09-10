@@ -53,8 +53,8 @@ const Navbar = () =>{
 
             <div className="linksNav">
             <a href="">Home</a>
-            <a href="">Nossos cafés</a>
             <a href="">Sobre</a>
+            <a href="">Nossos cafés</a>
             <a href="">Contato</a>
             <a href="">
               <BsCart2 className="navbar-icon-cart"/>

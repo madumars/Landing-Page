@@ -126,6 +126,79 @@ nav{
     background-color: #a46e5f;
 }
 
+.secondaryButton svg{
+    margin-left: 0.75rem;
+    font-size: 1.5rem;
+}
+
+/*About*/
+
+.AboutSectionContainer{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.AboutBackgroundImageContainer{
+    position: absolute;
+    z-index: -2;
+    object-fit: contain;
+    width: 460px;
+    height: 660px;
+}
+
+.aboutSectionImageContainer{
+    flex: 0.9;
+}
+
+.aboutSectionImageContainer img{
+   margin-left: 270px;
+   margin-bottom: 85px;
+}
+
+.aboutSectionTextContainer{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+.aboutButtonsContainer{
+    margin-top: 2rem;
+    display: flex;
+}
+
+.primarySubHeading{
+    font-weight: 700;
+    color:#a46e5f;
+    font-size: 3rem;
+}
+
+.watchVideoButton{
+    margin-left: 2rem;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-radius: 5rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: 600;
+    color: #484848;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.watchVideoButton svg{
+    font-size: 3rem;
+    margin-right: 1rem;
+}
+
 /*
 @media (max-width: 800px ){
     .logoNav{
@@ -159,6 +232,7 @@ nav{
     }
     */
     
+    /*Home*/
     .HomeBannerImageContainer{
         width: 376px;
         height: 314px;
@@ -174,9 +248,29 @@ nav{
         justify-content: center;
     }
     
-    /*Home e About*/
+    /*About*/
+
     .aboutSectionContainer{
         flex-direction: column;
+    }
+
+    .aboutButtonsContainer{
+    margin-left: 0rem !important;
+    margin-top: 1rem;
+    font-size: 1rem !important;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+    .AboutSectionContainer{
+    justify-content: center;
+    flex-direction: column;
+}
+
+/*tirei a primeira imagem*/
+    .AboutBackgroundImageContainer img{
+        display: none;
     }
 
     .HomeBannerContainer, 
@@ -185,10 +279,14 @@ nav{
         max-width: 400px;
     }
 
+    .aboutSectionImageContainer{
+        margin-top: 5rem !important;
+    }
+
     .aboutSectionImageContainer img{
         margin-left: 5px;
         margin-bottom: 5px;
-        margin: -150px 0 5px 0;
+        margin: -300px 0 -290px 45px;
     }
 
     .primaryHeading{
@@ -199,6 +297,16 @@ nav{
     .primaryText{
         text-align: center;
         max-width: 80%;
+    }
+
+    .primarySubHeading{
+        text-align: center;
+    }
+
+    .watchVideoButton{
+        margin-left: 0rem !important;
+        margin-top: 1rem;
+        font-size: 1rem !important;
     }
 
     .HomeBannerContainer, 
