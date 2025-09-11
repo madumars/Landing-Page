@@ -19,9 +19,9 @@ const About = () => {
                     Como é feito o seu café favorito?
                 </h1>
 
-                <p className="primaryText">Nossos cafés são produzidos nacional e internacionalmente para os mais diversos gostos</p>
+                <p className="primaryText">Nossos cafés são produzidos nacional e internacionalmente para os mais diversos gostos.</p>
 
-                <p className="primaryText">Nossa vontade de transformar café em laser e sabor começou no primeiro gole. Decidimos fazer reuniões com amigos a base de café e surgiu a nossa forma de trazer aproximação e sabor aos nossos clientes. </p>
+                <p className="primaryText">Nossa vontade de transformar café em momentos começou no primeiro gole. Decidimos fazer reuniões com amigos a base de café e surgiu a nossa forma de trazer aproximação e sabor aos nossos clientes. </p>
 
                 <div className="aboutButtonsContainer">
                     <button className="secondaryButton">Leia mais</button>
