@@ -199,6 +199,198 @@ nav{
     margin-right: 1rem;
 }
 
+/*Work*/
+.workSectionWrapper{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.workSectionInfo{
+    width: 290px;
+    min-height: 350px;
+    background-color: #d18e4a;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 1rem;
+    color: #505050;
+    margin: 1rem 2rem;
+}
+
+.workSectionInfo p{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    font-weight: 660;
+}
+
+.workSectionButton{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.workSectionInfo h2{
+    margin: 1rem 0;
+}
+
+.workSectionTop h1{
+    max-width: 700px !important;
+}
+
+.workSectionTop{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.infoBoxesImgContainer{
+    font-size: 100px;
+    color: #5a352b;
+}
+
+/*Avaliações*/
+
+.testemonialSectionBottom{
+    margin-top: 2rem;
+    background-color: #cd853f;
+    padding: 1.5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 750px;
+    border-radius: 2rem;
+    text-align: center;
+}
+
+.testemonialSectionBottom p{
+    font-weight: 700;
+    color: #515151;
+    max-width: 500px;
+    font-size: 1.1rem;
+    margin: 2rem 0;
+}
+
+.testemonialSectionBottom svg{ 
+    margin: 0 0.25rem;
+    font-size: 1.5rem;
+    color: #e5d226;
+}
+
+.testemonialSectionBottom{
+    margin-top: 1rem;
+}
+
+.testemonialSectionBottom img{
+   max-width: 120px;
+    max-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+     
+}
+
+/*Contato*/
+.contactPageWrapper h1{
+    max-width: 900px !important;
+}
+
+.contactPageWrapper h2{
+    max-width: 900px !important;
+}
+
+.contactPageWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 6rem 0;
+}
+
+.contactFormContainer{
+    background-color: #cd853f;
+    max-width: 700px;
+    width: 100%;
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 5rem;
+}
+
+.contactFormContainer input{
+    flex: 1;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 1.3rem;
+    padding: 0.5rem 1rem;
+    gap: 10px;
+    border-radius: 3rem;
+}
+
+/*Footer*/
+
+.footerWrapper{
+    margin: 6rem 10rem;
+    display: flex;
+}
+
+.footerLogoContainer{
+    width: 200px;
+    height: 160px;
+}
+
+.footerIcons{
+    margin-bottom: 0.25rem;
+    cursor: pointer;
+}
+
+.footerIcons svg{
+    font-size: 1.5rem;
+    margin: 5rem;
+    color: #585858;
+}
+
+.footerSectionOne{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+.footerSectionTwo{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    min-width: 190px;
+}
+
+.footerSectionColumns{
+    display: flex;
+    flex-direction: column;
+    min-width: 190px;
+}
+
+.footerSectionColumns span{
+    margin: 0.25rem 0;
+    font-weight: 600;
+    color: #4c4c4c;
+    cursor: pointer;
+}
+
 /*
 @media (max-width: 800px ){
     .logoNav{
@@ -332,7 +524,56 @@ nav{
         padding: 0.8rem 2rem;
         cursor: pointer;
     }
+
+    .workSectionWrapper{
+        margin-top: 3rem !important;
+    }
+
+    .workSectionButton{
+        margin-top: 1rem !important;
+    }
+
+    /*Contato*/
+
+    .contactPageWrapper{
+        margin-top: 5rem !important;
+    }
+
+    .contactFormContainer{
+        padding: 1rem !important;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 1rem !important;
+    }
+
+    .contactFormContainer input{
+        font-size: 1rem !important;
+        max-width: 100%;
+        padding: 0.5rem 1rem !important;
+        margin-bottom: 0.8rem !important;
+    }
+
+    /*Footer*/
+    .footerWrapper{
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .footerSectionTwo{
+        flex-direction: column;
+    }
+
+    .footerSectionColumns{
+        margin: 1rem 0;
+    }
+
+    .App{
+        max-width: 95vw;
+    }
 }
+
 
 @media (max-width: 600px ){
     .aboutBackgroundImageContainer{

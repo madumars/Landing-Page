@@ -30,7 +30,7 @@ const Work = () => {
     <div className="workSectionWrapper">
         <div className="workSectionTop">
             <p className="primarySubHeading">Nossos cafés</p>
-            <h1>Como trabalhamos para vocês</h1>
+            <h1>Nossos serviços</h1>
 
             <p className="primaryText">
             Nossa missão é levar a vocês conforto, lazer e um bom café.
