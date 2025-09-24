@@ -84,6 +84,7 @@ nav{
     top: 90px;
     right: 10px;
     max-width: 100%;
+    margin-top: 30px;
 }
 
 .sectionHomeText{
@@ -92,10 +93,17 @@ nav{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    margin-top: 40px;
 }
 
 .primaryHeading{
     font-size: clamp(2rem, 5vw, 4rem);
+    color:#5a352b;
+    max-width: 600px;
+}
+
+.primaryHeadingC{
+    font-weight: 700;
     color:#5a352b;
     max-width: 600px;
 }
@@ -138,6 +146,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 150px;
 }
 
 
@@ -164,11 +173,11 @@ nav{
     flex-direction: column;
     justify-content: center;
     margin-left: 200px;
-    margin-top: 100px;
+    margin-top: -100px;
 }
 
 .aboutButtonsContainer{
-    margin-top: 2rem;
+    margin-top: 0.5rem;
     display: flex;
 }
 
@@ -231,7 +240,7 @@ nav{
 }
 
 .workSectionButton{
-    margin-top: 5rem;
+    margin-top: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;

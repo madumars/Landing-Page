@@ -15,7 +15,7 @@ const About = () => {
 
             <div className="aboutSectionTextContainer">
                 <p className="primarySubHeading">Sobre nós</p>
-                <h1 className="primaryHeading">
+                <h1 className="primaryHeadingC">
                     Como é feito o seu café favorito?
                 </h1>
 
