@@ -22,3 +22,18 @@ https://github.com/user-attachments/assets/894eaa53-18ea-414b-b88c-3f762b1e6d71
 <h4 align="center"> 
 	:construction:  Projeto em construção, design em desenvolvimento :construction:
 </h4>
+
+# 👩‍💻 Linguagens e tecnologias usadas
+<ul>
+	<li>Javascript</li>
+	<li>React</li>
+	<li>VsCode</li>
+</ul>
+
+# 📖 Bibliotecas
+<ul>
+	<li>@emotion/react</li>
+	<li>@material-ui/icons</li>
+	<li>@fortawesome/free-solid-svg-icons</li>
+	<li>@fortawesome/react-fortawesome</li>
+</ul>
